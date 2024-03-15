@@ -5,11 +5,10 @@ import java.io.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Project4_texteditor extends JFrame implements ActionListener{
-
+    
     JFrame frame;
     JTextArea textArea;
     JMenuBar menuBar;
-
     Project4_texteditor()
     {
         frame = new JFrame("Awesome Text Editor");
